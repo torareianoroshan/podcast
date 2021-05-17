@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="tora_reia.css">
+    <link rel="stylesheet" href="tora_reia2.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <title>Tora-reia no Roshan</title>
@@ -12,77 +12,72 @@
 </head>
 
 <body>
-    <main>
-    
-        <header>
-    
-            <div class="elemtnos_centro">
-                <img style="width:70%; height:70%;" src="imagens/logo.svg">
-                <img style="width:20%; height:20%;" src="imagens/roshpng01.png">
-            </div>
-    
-        </header>
-    
-        <article class="intro">
+    <div id="principal">
+        <div id="cabecalho">
+            <h1>&nbsp;</h1>
+            <img style="width:70%; height:70%;" src="imagens/logo.png">
+            <img style="width:20%; height:20%;" src="imagens/roshpng01.png">
+        </div>
+
+        <div id="intro">
             <h4>Podcast dedicado ao contaditório joguinho de computador: DOTA2</h4>
-        </article>
-    
-        <article class="podcasts">
-            <h4>Nos ouça em:</h4>
-            <ul class="strem">
-                <li>
-                    <a href="" target="blank" class="strm apple-podcasts" title="Apple Podcasts">Apple Podcasts</a>
-                </li>
-                <li>
-                    <a href="" target="blank" class="strm google-podcasts" title="Google Podcasts">Google Podcasts</a>
-                </li>                
-                <li>
-                    <a href="" target="blank" class="strm soundcloud" title="SoundCloud">SoundCloud</a>
-                </li>
-                <li>
-                    <a href="https://open.spotify.com/show/2KNBoD6bcMHpsYNek1wiHQ" target="blank" class="strm spotfy" title="Spotfy">Spotfy</a>
-                </li>
+        </div>
 
+        <div class="podcasts">
+            <h4>Ouça agora:</h4>
+            <ul class="stream">
+                <li>
+                    <a href="https://open.spotify.com/show/2KNBoD6bcMHpsYNek1wiHQ" target="_blank" class="strm-spotfy" title="Spotfy">Spotfy</a>
+                </li>
+                <li>
+                    <a href="https://radiopublic.com/torareia-no-roshan-6nJE3Y" target="_blank" title="Radio Public">Radio Public</a>
+                </li>
+                <li>
+                    <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MzFiZmIyYy9wb2RjYXN0L3Jzcw==" target="_blank" title="Google Podcasts">Google Podcasts</a>
+                </li>
+                <li>
+                    <a href="https://www.breaker.audio/tora-reia-no-roshan" target="_blank" title="Breaker">Breaker</a>
+                </li>
             </ul>
-        </article>
+        </div>
 
-        <div class="logo_episodios">
+        <div id="episodios-logo">
             <img style="width: 200px; height: 200px;" src="imagens/epi.svg">
         </div>
-
-
+        
+        <!--- repetir essa div quando for adicionar novos episódios -->
+        <!--- maximo de 2 episodios por div -->
         <div class="episodios">
-            <article class="epi">
-                <div class="epi-div">
-                    <a class="epi-img" href="link_pagina">
-                        <img src="imagens/epi1_cover.png" alt="Episódio 1">
-                    </a>
-                </div>
-                <div class="epi-txt">
-                    <a class="epi-txt-num" href="link_pagina">Episódio 1</a>
-                    <h4 class="epi-txt-desc" >Início da jornada dos nossos podcasters =(</h3>
-                </div>
-            </article>
-        
-            <article class="epi">
-                <div class="epi-div">
-                    <a class="epi-img" href="link_pagina">
-                        <img src="imagens/epi1_cover.png" alt="Episódio 1">
-                    </a>
-                </div>
-                <div class="epi-txt">
-                    <a class="epi-txt-num" href="link_pagina">Episódio 1</a>
-                    <h4 class="epi-txt-desc">Início da jornada dos nossos podcasters =(</h3>
-                </div>
-            </article>
+            <div class="epi">
+                <img src="imagens/epi1_cover.png" alt="Episódio 1">
+                <a class="epi-txt-num" href="link_pagina">Episódio 1</a>
+                <h4 class="epi-txt-desc" >Início da jornada dos nossos podcasters =(</h4>
+            </div>
+            
+            <div class="epi">
+                <img src="imagens/epi1_cover.png" alt="Episódio 1">
+                <a class="epi-txt-num" href="link_pagina">Episódio 1</a>
+                <h4 class="epi-txt-desc" >Início da jornada dos nossos podcasters =(</h4>
+            </div>
+            
         </div>
+       
+<!---
+        <div class="episodios">
+            <div class="epi">
+                <img src="imagens/epi1_cover.png" alt="Episódio 1">
+                <a class="epi-txt-num" href="link_pagina">Episódio 1</a>
+                <h4 class="epi-txt-desc" >Início da jornada dos nossos podcasters =(</h4>
+            </div>
+            
+            <div class="epi">
+                <img src="imagens/epi1_cover.png" alt="Episódio 1">
+                <a class="epi-txt-num" href="link_pagina">Episódio 1</a>
+                <h4 class="epi-txt-desc" >Início da jornada dos nossos podcasters =(</h4>
+            </div>
+            
+        </div>
+-->
+    </div>
 
-
-
-
-        
-    </main>
-    
 </body>
-
-</html>
